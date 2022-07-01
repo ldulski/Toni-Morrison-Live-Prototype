@@ -1,3 +1,7 @@
+/* font imports */
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@400;500;700&display=swap');
+
 html{
     font-size: 100%;
     box-sizing: border-box;
@@ -13,9 +17,103 @@ body{
     padding: 0px;
     background-color: #ffffff;
 }
-/* Navbar */
-nav{
-    display:block;
-    padding: 8px;
+/*Typography*/
+h1{
+    font-family: Fraunces, Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 67.34px;
+    color: #16284D;
+}
+h2{
+    font-family: Fraunces, Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 50.52px;
+    color: #16284D;
+}
+h3{
+    font-family: Fraunces, Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 37.90px;
+    color: #16284D;
+}
+h4{
+    font-family: Fraunces, Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 28.43px;
+    color: #16284D;
+}
+h5{
+    font-family: Fraunces, Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 21.33px;
+    color: #16284D;
+}
+p{
+    font-family: Commissioner,Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 21.33px;
+    color: #16284D;
+}
+
+ul{
     list-style-type: none;
+    font-family: Commissioner,Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 21.33px;
+    color: #16284D;
+}
+a{
+    text-decoration: none;
+    color: #16284D;
+    font-family: Commissioner,Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.3rem;
+}
+/* Navbar */
+.navbar {
+    display: inline block;
+    margin: 0;
+    padding: 1.5%;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #E9EFFB;
+}
+.navbar > li{
+    float: left;
+    
+}
+.navbar > li a {
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color:#ffffff;
+    font-size: 1rem;
+}
+#logo{
+    float: left
+}
+#nav-cta{
+    color:#ffffff;
+    float: right;
+}
+.cta-signup{
+    box-shadow:inset 0px 1px 3px 0px #91b8b3;
+	background-color:#1F3D7A;
+	border:1px solid #1F3D7A;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:16px;
+	padding:14px 27px;
+	text-decoration:none;
+}
+.cta-signup:hover {
+	background-color:#EDD767;
+    border: 1px solid #EDD767;
+}
+.cta-signup:active {
+	position:relative;
+	top:1px;
 }
