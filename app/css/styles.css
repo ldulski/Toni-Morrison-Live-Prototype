@@ -6,6 +6,7 @@
 html{
     font-size: 100%;
     box-sizing: border-box;
+    max-width: 1366px;
 }
 *, *::before, *::after{
     box-sizing: inherit;
@@ -70,6 +71,9 @@ a{
     font-weight: 500;
     font-size: 1rem;
     line-height: 1.3rem;
+}
+.date{
+    font-size: 1.777rem;
 }
 /* Navbar */
 .navbar {
