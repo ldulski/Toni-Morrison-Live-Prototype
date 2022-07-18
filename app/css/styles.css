@@ -6,7 +6,7 @@
 html{
     font-size: 100%;
     box-sizing: border-box;
-    max-width: 1366px;
+
 }
 *, *::before, *::after{
     box-sizing: inherit;
@@ -62,6 +62,7 @@ ul{
     font-family: Commissioner,Arial, Helvetica, sans-serif;
     font-weight: 500;
     font-size: 21.33px;
+    line-height: 2rem;
     color: #16284D;
 }
 a{
@@ -121,4 +122,20 @@ a{
 .cta-signup:active {
 	position:relative;
 	top:1px;
+}
+#colophon {
+     background-color: #16284D;
+
+}
+#colophon > h2{
+    color: #ffffff;
+   padding-top: 20px;
+}
+#colophon > ul {
+    color: #ffffff;
+    line-height: 2.5rem;
+}
+footer{ 
+    background-color: #E9EFFB;
+    display: flex;
 }
